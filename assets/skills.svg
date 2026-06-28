@@ -1,56 +1,22 @@
-<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070B18"/><stop offset="1" stop-color="#0B1020"/></linearGradient>
-<linearGradient id="g" x1="0" x2="1"><stop stop-color="#00F5FF"/><stop offset="1" stop-color="#A855F7"/></linearGradient>
-<style>
-.h{font:800 36px Arial;fill:#fff}
-.box{fill:#111827;stroke:#26334D}
-.name{font:700 16px Arial;fill:#fff}
-.icon{font:800 22px Arial;fill:#00F5FF}
-.cat{font:700 19px Arial;fill:#a78bfa}
-.bar{animation:glow 3s infinite}
-@keyframes glow{0%,100%{opacity:.45}50%{opacity:1}}
-</style>
-</defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <rect width="1200" height="300" rx="20" fill="#0d1117"/>
+  <text x="40" y="60" fill="white" font-size="36" font-family="Arial" font-weight="bold">
+    Tech Stack
+  </text>
 
-<rect width="1200" height="560" rx="26" fill="url(#bg)"/>
-<rect x="1" y="1" width="1198" height="558" rx="26" stroke="#26334D"/>
-<text x="48" y="66" class="h">Tech Stack</text>
-<rect class="bar" x="48" y="90" width="1080" height="3" fill="url(#g)"/>
+  <text x="40" y="120" fill="#58a6ff" font-size="24" font-family="Arial">
+    Laravel • PHP • Node.js • NestJS • Express
+  </text>
 
-<text x="48" y="135" class="cat">Backend & APIs</text>
-<g transform="translate(48 155)">
-<g><rect class="box" width="110" height="78" rx="14"/><text x="32" y="36" class="icon">PHP</text><text x="38" y="61" class="name">PHP</text></g>
-<g transform="translate(125 0)"><rect class="box" width="110" height="78" rx="14"/><text x="45" y="36" class="icon">L</text><text x="25" y="61" class="name">Laravel</text></g>
-<g transform="translate(250 0)"><rect class="box" width="110" height="78" rx="14"/><text x="34" y="36" class="icon">JS</text><text x="28" y="61" class="name">Node.js</text></g>
-<g transform="translate(375 0)"><rect class="box" width="110" height="78" rx="14"/><text x="45" y="36" class="icon">N</text><text x="30" y="61" class="name">NestJS</text></g>
-<g transform="translate(500 0)"><rect class="box" width="110" height="78" rx="14"/><text x="34" y="36" class="icon">EX</text><text x="26" y="61" class="name">Express</text></g>
-<g transform="translate(625 0)"><rect class="box" width="110" height="78" rx="14"/><text x="30" y="36" class="icon">API</text><text x="26" y="61" class="name">REST API</text></g>
-<g transform="translate(750 0)"><rect class="box" width="110" height="78" rx="14"/><text x="30" y="36" class="icon">JWT</text><text x="37" y="61" class="name">JWT</text></g>
-<g transform="translate(875 0)"><rect class="box" width="110" height="78" rx="14"/><text x="22" y="36" class="icon">RBAC</text><text x="33" y="61" class="name">RBAC</text></g>
-</g>
+  <text x="40" y="170" fill="#58a6ff" font-size="24" font-family="Arial">
+    React • Next.js • Vue.js • Nuxt.js • TypeScript
+  </text>
 
-<text x="48" y="280" class="cat">Frontend</text>
-<g transform="translate(48 300)">
-<g><rect class="box" width="110" height="78" rx="14"/><text x="31" y="36" class="icon">Vue</text><text x="30" y="61" class="name">Vue.js</text></g>
-<g transform="translate(125 0)"><rect class="box" width="110" height="78" rx="14"/><text x="25" y="36" class="icon">Nuxt</text><text x="30" y="61" class="name">Nuxt.js</text></g>
-<g transform="translate(250 0)"><rect class="box" width="110" height="78" rx="14"/><text x="23" y="36" class="icon">React</text><text x="28" y="61" class="name">React</text></g>
-<g transform="translate(375 0)"><rect class="box" width="110" height="78" rx="14"/><text x="28" y="36" class="icon">Next</text><text x="28" y="61" class="name">Next.js</text></g>
-<g transform="translate(500 0)"><rect class="box" width="110" height="78" rx="14"/><text x="34" y="36" class="icon">TS</text><text x="18" y="61" class="name">TypeScript</text></g>
-<g transform="translate(625 0)"><rect class="box" width="110" height="78" rx="14"/><text x="34" y="36" class="icon">JS</text><text x="18" y="61" class="name">JavaScript</text></g>
-<g transform="translate(750 0)"><rect class="box" width="110" height="78" rx="14"/><text x="34" y="36" class="icon">TW</text><text x="24" y="61" class="name">Tailwind</text></g>
-<g transform="translate(875 0)"><rect class="box" width="110" height="78" rx="14"/><text x="22" y="36" class="icon">HTML</text><text x="28" y="61" class="name">HTML/CSS</text></g>
-</g>
+  <text x="40" y="220" fill="#58a6ff" font-size="24" font-family="Arial">
+    MySQL • PostgreSQL • MongoDB • Redis • Docker
+  </text>
 
-<text x="48" y="425" class="cat">Database, Cloud & Tools</text>
-<g transform="translate(48 445)">
-<g><rect class="box" width="110" height="78" rx="14"/><text x="30" y="36" class="icon">SQL</text><text x="28" y="61" class="name">MySQL</text></g>
-<g transform="translate(125 0)"><rect class="box" width="110" height="78" rx="14"/><text x="38" y="36" class="icon">PG</text><text x="18" y="61" class="name">PostgreSQL</text></g>
-<g transform="translate(250 0)"><rect class="box" width="110" height="78" rx="14"/><text x="28" y="36" class="icon">MDB</text><text x="18" y="61" class="name">MongoDB</text></g>
-<g transform="translate(375 0)"><rect class="box" width="110" height="78" rx="14"/><text x="22" y="36" class="icon">Redis</text><text x="29" y="61" class="name">Redis</text></g>
-<g transform="translate(500 0)"><rect class="box" width="110" height="78" rx="14"/><text x="18" y="36" class="icon">Docker</text><text x="27" y="61" class="name">Docker</text></g>
-<g transform="translate(625 0)"><rect class="box" width="110" height="78" rx="14"/><text x="30" y="36" class="icon">AWS</text><text x="35" y="61" class="name">AWS</text></g>
-<g transform="translate(750 0)"><rect class="box" width="110" height="78" rx="14"/><text x="34" y="36" class="icon">Git</text><text x="36" y="61" class="name">Git</text></g>
-<g transform="translate(875 0)"><rect class="box" width="110" height="78" rx="14"/><text x="22" y="36" class="icon">Linux</text><text x="30" y="61" class="name">Linux</text></g>
-</g>
+  <text x="40" y="270" fill="#58a6ff" font-size="24" font-family="Arial">
+    AWS • Git • Linux • Tailwind CSS • REST API • JWT
+  </text>
 </svg>
