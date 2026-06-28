@@ -1,0 +1,21 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070B18"/><stop offset="1" stop-color="#0F172A"/></linearGradient><linearGradient id="line" x1="0" x2="1"><stop stop-color="#00F5FF"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient><style>.h{font:800 36px Arial;fill:#fff}.p{font:400 21px Arial;fill:#d1d5db}.b{font-weight:800;fill:#fff}.li{font:400 21px Arial;fill:#e5e7eb}.card{fill:#0B1020;stroke:#233047;stroke-width:1}.pulse{animation:p 2s infinite}@keyframes p{0%,100%{opacity:.45}50%{opacity:1}}</style></defs>
+<rect width="1200" height="430" rx="26" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="428" rx="26" stroke="#26334D"/>
+<text x="48" y="72" class="h">🚀 About Me</text><rect x="48" y="95" width="520" height="3" fill="url(#line)"/>
+<text x="48" y="142" class="p">I am <tspan class="b">Manish Singh</tspan>, a <tspan class="b">Full Stack Developer</tspan> with <tspan class="b">3.9+ years</tspan> of experience</text>
+<text x="48" y="174" class="p">building scalable SaaS applications, HMS, CRM platforms, REST APIs,</text><text x="48" y="206" class="p">and enterprise web applications.</text>
+<text x="70" y="260" class="li">🔭 Currently working on <tspan class="b">Hospital Management SaaS</tspan></text>
+<text x="70" y="294" class="li">🌱 Learning <tspan class="b">Node.js, NestJS, Next.js</tspan></text>
+<text x="70" y="328" class="li">💼 Experienced in <tspan class="b">Laravel, PHP, Vue.js, Node.js</tspan></text>
+<text x="70" y="362" class="li">🏗️ Interested in <tspan class="b">Multi-Tenant SaaS Architecture</tspan></text>
+<text x="70" y="396" class="li">🎯 Goal: Build scalable and production-ready web products</text>
+<g transform="translate(735 70)">
+ <rect class="card" width="380" height="280" rx="22"/>
+ <circle cx="190" cy="140" r="90" fill="#00F5FF" opacity=".08"/>
+ <rect x="70" y="80" width="100" height="70" rx="8" fill="#111827" stroke="#00F5FF"/><rect x="205" y="80" width="100" height="70" rx="8" fill="#111827" stroke="#8B5CF6"/>
+ <rect x="145" y="170" width="90" height="55" rx="8" fill="#111827" stroke="#22C55E"/>
+ <path d="M120 155 L160 170 M255 155 L215 170" stroke="#00F5FF" stroke-width="3"/>
+ <text x="93" y="123" font-size="34" fill="#00F5FF">{}</text><text x="230" y="123" font-size="34" fill="#8B5CF6">API</text><text x="172" y="205" font-size="30" fill="#22C55E">DB</text>
+ <circle class="pulse" cx="85" cy="245" r="6" fill="#22C55E"/><text x="103" y="252" font="600 18px Arial" fill="#fff">Open to Work</text>
+</g>
+</svg>

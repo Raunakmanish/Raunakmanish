@@ -1,0 +1,6 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#00F5FF"/><stop offset=".5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#020617"/></linearGradient><style>.t{font:800 26px Arial;fill:#fff}.s{font:500 17px Arial;fill:#cbd5e1}</style></defs>
+<rect width="1200" height="140" rx="24" fill="#070B18"/><path d="M0 40 C250 100 400 0 610 55 C810 110 1000 55 1200 20 V140 H0Z" fill="url(#g)" opacity=".45"/>
+<text x="355" y="58" class="t">Thanks for visiting my GitHub Profile 🚀</text>
+<text x="430" y="92" class="s">Let's build scalable SaaS products together</text>
+</svg>

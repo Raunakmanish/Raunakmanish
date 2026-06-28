@@ -1,1 +1,29 @@
-
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1200" y2="360"><stop stop-color="#020617"/><stop offset=".55" stop-color="#070B1F"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00F5FF"/><stop offset="1" stop-color="#A855F7"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .title{font:800 58px Arial, sans-serif;fill:#fff}.sub{font:700 24px Arial,sans-serif;fill:#00f5ff}.desc{font:400 20px Arial,sans-serif;fill:#e5e7eb}.chip{fill:#0B1020;stroke:url(#neon);stroke-width:1.5}.chiptext{font:600 18px Arial,sans-serif;fill:#fff}.code{font:700 34px 'Courier New',monospace;fill:#00f5ff}.move{animation:float 5s ease-in-out infinite}.dash{stroke-dasharray:10 24;animation:dash 8s linear infinite}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}@keyframes dash{to{stroke-dashoffset:-220}}
+    </style>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#g1)"/>
+  <circle class="move" cx="115" cy="255" r="105" fill="#00D9FF" opacity=".9"/>
+  <circle class="move" cx="1115" cy="65" r="85" fill="#8B5CF6" opacity=".9"/>
+  <path class="dash" d="M20 250 C220 210 390 315 575 250 C740 190 880 185 1180 95" stroke="#00B7FF" stroke-width="3" opacity=".65"/>
+  <text x="92" y="92" class="title">Hi there! 👋 I'm Manish Singh</text>
+  <text x="92" y="136" class="sub">Full Stack Developer | Laravel | Node.js | Vue.js | SaaS Developer</text>
+  <text x="92" y="186" class="desc">Building scalable SaaS products, REST APIs, HMS platforms and clean production-ready web applications.</text>
+  <g transform="translate(92 235)">
+    <rect class="chip" width="180" height="50" rx="13"/><text x="28" y="32" class="chiptext">⚡ 3.9+ Years Exp.</text>
+  </g>
+  <g transform="translate(292 235)">
+    <rect class="chip" width="168" height="50" rx="13"/><text x="28" y="32" class="chiptext">🟢 Open to Work</text>
+  </g>
+  <g transform="translate(480 235)">
+    <rect class="chip" width="190" height="50" rx="13"/><text x="28" y="32" class="chiptext">🚀 SaaS Developer</text>
+  </g>
+  <text x="1000" y="120" class="code" filter="url(#glow)">&lt;/&gt;</text>
+  <text x="1100" y="225" class="code" filter="url(#glow)">{ }</text>
+  <text x="455" y="330" class="code">Clean Code | Problem Solver</text>
+</svg>
