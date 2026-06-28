@@ -14,11 +14,11 @@
 
 ---
 
-<img src="assets/about.svg" width="100%" />
+<img src=".assets/about.svg" width="100%" />
 
 ---
 
-<img src="assets/skills.svg" width="100%" />
+<img src=".assets/skills.svg" width="100%" />
 
 ---
 
